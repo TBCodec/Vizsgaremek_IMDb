@@ -6,7 +6,6 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import pages.HomePage;
 import pages.LoginPage;
-import pages.OpenSpotifyPage;
 import pages.SignInPage;
 import utils.AddCookie;
 
@@ -18,9 +17,9 @@ public class LoginTest extends BaseTests {
         LoginPage loginPage = signInPage.clickSignInWithImdb();
         loginPage.setUserNameField("litro@freemail.hu");
         loginPage.setPasswordField("Bw330405");
-        OpenSpotifyPage openSpotifyPage = loginPage.clickSignInButton();
-        //String logInUser = openSpotifyPage.getUserName();
-        //Assertions.assertEquals(logInUser, "Szia, litro");
+        HomePage homePage = loginPage.clickSignInButton();
+        String logInUser = homePage.getUserName();
+        Assertions.assertEquals(logInUser, "Test");
     }
 
 }

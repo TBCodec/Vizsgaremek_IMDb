@@ -14,9 +14,9 @@ public class HomePage {
     private WebDriverWait wait;
     private By profileButton = By.xpath("//*[@id=\"login-username\"]");
     private By registrationButton = By.xpath("//a[@href='https://www.spotify.com/hu/signup/']");
-    private By cookiesAcceptButton = By.xpath("//*[@id=\"onetrust-accept-btn-handler\"]");
     private By menuButton = By.xpath("//*[@id=\"preview-menu-container\"]");
     private By logInButton = By.xpath("//*[@id=\"imdbHeader\"]//a[@href=\"/registration/signin?ref=nv_generic_lgin\"]");
+    private By userNameField = By.xpath("//*[@id=\"imdbHeader\"]//div[@class=\"ipc-button__text\"]/span");
 
     public HomePage(WebDriver driver){
         this.driver = driver;
@@ -53,33 +53,6 @@ public class HomePage {
         return new RegistrationPage(driver);
     }
 
-    public void clickCookies(){
-        wait = new WebDriverWait(driver, 20);
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id=\"onetrust-policy\"]")));
-        By onetrustGroup = By.xpath("//*[@id=\"onetrust-group-container\"]/parent::div/div");
-        getId(onetrustGroup);
-
-        By oneTrustGroupParent = By.xpath("//*[@id=\"onetrust-group-container\"]/parent::div/parent::div");
-        getId(oneTrustGroupParent);
-
-        By oneTrustGroupParentParent = By.xpath("//*[@id=\"onetrust-group-container\"]/parent::div/parent::div/parent::div");
-        getId(oneTrustGroupParentParent);
-
-        By oneTrustAll = By.xpath("//*[@id=\"onetrust-group-container\"]/parent::div/parent::div/parent::div/parent::div");
-        getId(oneTrustAll);
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(cookiesAcceptButton));
-        /*
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        */
-        driver.findElement(cookiesAcceptButton).click();
-    }
-
     public void getId(By field){
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(field));
@@ -93,4 +66,11 @@ public class HomePage {
             System.out.println();
         }
     }
+
+    public String getUserName(){
+        wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(userNameField));
+        return driver.findElement(userNameField).getText();
+    }
+
 }

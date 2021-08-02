@@ -16,17 +16,10 @@ public class AddCookie {
         this.driver = driver;
     }
 
-    public void addCookie(){
-        driver.manage().addCookie(new Cookie("foo", "bar"));
-        Cookie cookie1 = driver.manage().getCookieNamed("foo");
-        System.out.println(cookie1);
-
-    }
-
     public void saveCookiesToFile(){
         File file = new File("Cookiefile.data");
         try{
-        // Delete old file if already exists
+            // Delete old file if already exists
             file.delete();
             file.createNewFile();
             FileWriter fileWriter = new FileWriter(file);
