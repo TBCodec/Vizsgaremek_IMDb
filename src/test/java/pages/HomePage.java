@@ -35,6 +35,19 @@ public class HomePage {
         return new SignInPage(driver);
 
     }
+    public void clickLogOutButton(){
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(userNameField));
+        driver.findElement(userNameField).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("navUserMenu-contents")));
+        List<WebElement> listOfProfile = driver.findElements(By.xpath("//*[@id=\"navUserMenu-contents\"]//a"));
+        for (WebElement element : listOfProfile){
+            if (element.getText().contains("Sign out")){
+                element.click();
+            }
+        }
+
+    }
 
 
     public LoginPage clickProfile(){
@@ -71,6 +84,11 @@ public class HomePage {
         wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(userNameField));
         return driver.findElement(userNameField).getText();
+    }
+    public String getUserFieldText(){
+        wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(logInButton));
+        return driver.findElement(logInButton).getText();
     }
 
 }

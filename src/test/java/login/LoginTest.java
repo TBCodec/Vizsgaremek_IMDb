@@ -2,6 +2,7 @@ package login;
 
 import base.BaseTests;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import pages.HomePage;
@@ -11,6 +12,7 @@ import utils.AddCookie;
 
 public class LoginTest extends BaseTests {
 
+    @DisplayName("TC1")
     @Test
     public void testSuccessfulLogin(){
         SignInPage signInPage = homePage.clickLogInButton();
@@ -20,6 +22,17 @@ public class LoginTest extends BaseTests {
         HomePage homePage = loginPage.clickSignInButton();
         String logInUser = homePage.getUserName();
         Assertions.assertEquals(logInUser, "Test");
+    }
+
+    @DisplayName("TC2")
+    @Test
+    public void testSuccessfulLogout(){
+        testSuccessfulLogin();
+        homePage.clickLogOutButton();
+        String logInUser = homePage.getUserFieldText();
+        Assertions.assertEquals(logInUser, "Sign In");
+
+
     }
 
 }
