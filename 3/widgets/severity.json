@@ -1,0 +1,21 @@
+[ {
+  "uid" : "bf6f88909278d247",
+  "name" : "TC2",
+  "time" : {
+    "start" : 1627940728025,
+    "stop" : 1627940740972,
+    "duration" : 12947
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6cb54b60e6f9f10",
+  "name" : "TC1",
+  "time" : {
+    "start" : 1627940741041,
+    "stop" : 1627940749441,
+    "duration" : 8400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
