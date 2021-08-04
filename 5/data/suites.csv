@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 04 07:55:50 GMT 2021","Wed Aug 04 07:55:58 GMT 2021","7358","","login.LoginTest","","login.LoginTest","testSuccessfulLogin","TC1",""
+"passed","Wed Aug 04 07:55:25 GMT 2021","Wed Aug 04 07:55:40 GMT 2021","14198","","privacyPolicyTest.PrivacyPolicyTest","","privacyPolicyTest.PrivacyPolicyTest","privacyPolicyTest","privacyPolicyTest()",""
+"passed","Wed Aug 04 07:55:40 GMT 2021","Wed Aug 04 07:55:50 GMT 2021","10491","","login.LoginTest","","login.LoginTest","testSuccessfulLogout","TC2",""
