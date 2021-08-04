@@ -16,29 +16,39 @@ public class HomePage {
     private By registrationButton = By.xpath("//a[@href='https://www.spotify.com/hu/signup/']");
     private By menuButton = By.xpath("//*[@id=\"preview-menu-container\"]");
     private By logInButton = By.xpath("//*[@id=\"imdbHeader\"]//a[@href=\"/registration/signin?ref=nv_generic_lgin\"]");
-    private By userNameField = By.xpath("//*[@id=\"imdbHeader\"]//div[@class=\"ipc-button__text\"]/span");
+    private By USER_NAME_FIELD = By.xpath("//*[@id=\"imdbHeader\"]//div[@class=\"ipc-button__text\"]/span");
+    private By PRIVACY_POLICY = By.xpath("//a[contains(@href,'/privacy')]");
 
     public HomePage(WebDriver driver){
         this.driver = driver;
     }
 
-    public void clickMenuButton(){
+    public void webdriverWait(By element){
         wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(menuButton));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(element));
+
+    }
+
+    public PrivacyPolicyPage clickPrivacy(){
+        webdriverWait(PRIVACY_POLICY);
+        driver.findElement(PRIVACY_POLICY).click();
+        return new PrivacyPolicyPage(driver);
+    }
+
+    public void clickMenuButton(){
+        webdriverWait(menuButton);
         driver.findElement(menuButton).click();
     }
 
     public SignInPage clickLogInButton(){
-        wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(logInButton));
+        webdriverWait(logInButton);
         driver.findElement(logInButton).click();
         return new SignInPage(driver);
 
     }
     public void clickLogOutButton(){
-        wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(userNameField));
-        driver.findElement(userNameField).click();
+        webdriverWait(USER_NAME_FIELD);
+        driver.findElement(USER_NAME_FIELD).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("navUserMenu-contents")));
         List<WebElement> listOfProfile = driver.findElements(By.xpath("//*[@id=\"navUserMenu-contents\"]//a"));
         for (WebElement element : listOfProfile){
@@ -46,48 +56,29 @@ public class HomePage {
                 element.click();
             }
         }
-
     }
-
 
     public LoginPage clickProfile(){
         clickLogInButton();
-        wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(profileButton));
+        webdriverWait(profileButton);
         driver.findElement(profileButton).click();
 
         return new LoginPage(driver);
     }
 
     public RegistrationPage clickRegistration(){
-        wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(registrationButton));
+        webdriverWait(registrationButton);
         driver.findElement(registrationButton).click();
         return new RegistrationPage(driver);
     }
 
-    public void getId(By field){
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(field));
-        List<WebElement> listOneTrustGroup = driver.findElements(field);
-        for (WebElement element : listOneTrustGroup){
-            System.out.println();
-            System.out.println(field);
-            System.out.println(element.getAttribute("id"));
-            System.out.println(element.getAttribute("class"));
-            System.out.println(element.getText());
-            System.out.println();
-        }
-    }
-
     public String getUserName(){
-        wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(userNameField));
-        return driver.findElement(userNameField).getText();
+        webdriverWait(USER_NAME_FIELD);
+        return driver.findElement(USER_NAME_FIELD).getText();
     }
+
     public String getUserFieldText(){
-        wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(logInButton));
+        webdriverWait(logInButton);
         return driver.findElement(logInButton).getText();
     }
 

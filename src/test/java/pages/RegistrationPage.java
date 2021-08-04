@@ -15,6 +15,7 @@ public class RegistrationPage {
 
     }
 
+
     public void setIAmNotRobot(){
         //driver.findElement(iAmNotRobot).click();
         new WebDriverWait(driver, 10).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//iframe[starts-with(@name, 'a-') and starts-with(@src, 'https://www.google.com/recaptcha')]")));

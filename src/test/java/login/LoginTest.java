@@ -3,12 +3,10 @@ package login;
 import base.BaseTests;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.SignInPage;
-import utils.AddCookie;
 
 public class LoginTest extends BaseTests {
 
@@ -31,7 +29,6 @@ public class LoginTest extends BaseTests {
         homePage.clickLogOutButton();
         String logInUser = homePage.getUserFieldText();
         Assertions.assertEquals(logInUser, "Sign In");
-
 
     }
 
