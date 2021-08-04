@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -18,6 +19,8 @@ public class HomePage {
     private By logInButton = By.xpath("//*[@id=\"imdbHeader\"]//a[@href=\"/registration/signin?ref=nv_generic_lgin\"]");
     private By USER_NAME_FIELD = By.xpath("//*[@id=\"imdbHeader\"]//div[@class=\"ipc-button__text\"]/span");
     private By PRIVACY_POLICY = By.xpath("//a[contains(@href,'/privacy')]");
+    private By TOP_BOX_BUTTON = By.xpath("//*[@id=\"__next\"]//a[@href=\"/chart/boxoffice/?ref_=hm_cht_sm\"]");
+
 
     public HomePage(WebDriver driver){
         this.driver = driver;
@@ -27,6 +30,15 @@ public class HomePage {
         wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(element));
 
+    }
+
+    public TopBoxOfficePage clickFanFavorites(){
+        JavascriptExecutor javascriptExecutor = (JavascriptExecutor)driver;
+        WebElement fanFavorites = driver.findElement(TOP_BOX_BUTTON);
+        javascriptExecutor.executeScript("arguments[0].scrollIntoView(true)", fanFavorites);
+        webdriverWait(TOP_BOX_BUTTON);
+        driver.findElement(TOP_BOX_BUTTON).click();
+        return new TopBoxOfficePage(driver);
     }
 
     public PrivacyPolicyPage clickPrivacy(){
