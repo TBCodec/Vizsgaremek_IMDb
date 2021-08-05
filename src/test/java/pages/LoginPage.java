@@ -9,12 +9,12 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginPage {
     private int i = 0;
-    private WebDriver driver;
-    private By userNameField = By.xpath("//*[@id=\"ap_email\"]");
-    private By passwordField = By.xpath("//*[@id=\"ap_password\"]");
-    private By signInButton = By.id("signInSubmit");
-    private By rememberMe = By.xpath("//label[@class='ng-binding']");
-    private By alertWarning = By.xpath("//*[@id=\"app\"]//p[@class]//a");
+    private final WebDriver driver;
+    final By USER_NAME_FIELD = By.xpath("//*[@id=\"ap_email\"]");
+    final By PASSWORD_FIELD = By.xpath("//*[@id=\"ap_password\"]");
+    final By SIGNIN_BUTTON = By.id("signInSubmit");
+    final By REMEMBER_ME_BUTTON = By.xpath("//label[@class='ng-binding']");
+    final By ALERT_WARNING = By.xpath("//*[@id=\"app\"]//p[@class]//a");
 
     private WebDriverWait wait;
 
@@ -25,18 +25,18 @@ public class LoginPage {
 
     public void setUserNameField(String userName){
         wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(userNameField));
-        driver.findElement(userNameField).click();
-        driver.findElement(userNameField).sendKeys(userName);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(USER_NAME_FIELD));
+        driver.findElement(USER_NAME_FIELD).click();
+        driver.findElement(USER_NAME_FIELD).sendKeys(userName);
     }
     public void setPasswordField(String password){
-        driver.findElement(passwordField).click();
-        driver.findElement(passwordField).sendKeys(password);
+        driver.findElement(PASSWORD_FIELD).click();
+        driver.findElement(PASSWORD_FIELD).sendKeys(password);
     }
 
     public HomePage clickSignInButton(){
         wait = new WebDriverWait(driver, 10);
-        driver.findElement(signInButton).click();
+        driver.findElement(SIGNIN_BUTTON).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait.until(ExpectedConditions.urlContains("https://m.imdb.com/?ref_=m_login"));
         AddCookie addCookie = new AddCookie(driver);

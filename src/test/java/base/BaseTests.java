@@ -8,6 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import pages.HomePage;
 import utils.AddCookie;
+import utils.Utils;
+
 import java.util.concurrent.TimeUnit;
 
 public class BaseTests {
@@ -15,6 +17,7 @@ public class BaseTests {
     private WebDriver driver;
     protected HomePage homePage;
     private AddCookie addCookie;
+    public Utils utils;
 
     @BeforeEach
     public void setUp(){
@@ -34,7 +37,7 @@ public class BaseTests {
         driver.get("https://www.imdb.com/");
 
         homePage = new HomePage(driver);
-
+        utils = new Utils(driver);
     }
 
     @AfterEach
