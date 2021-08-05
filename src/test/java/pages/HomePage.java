@@ -20,7 +20,7 @@ public class HomePage {
     final By PRIVACY_POLICY = By.xpath("//a[contains(@href,'/privacy')]");
     final By TOP_BOX_BUTTON = By.xpath("//*[@id=\"__next\"]//a[@href=\"/chart/boxoffice/?ref_=hm_cht_sm\"]");
     final By MENU_BUTTON = By.id("imdbHeader-navDrawerOpen--desktop");
-    final By MENU_LIST = By.xpath("//*[@id=\"imdbHeader\"]//a[@role=\"menuitem\"]");
+    final By MENU_LIST = By.xpath("//*[@id=\"imdbHeader\"]//a");
     final By SEARCH_CATEGORY_BUTTON = By.xpath("//*[@id=\"nav-search-form\"]/div[contains(@class,\"SearchCat\")]");
     final By ADVANCED_SEARCH_BUTTON = By.xpath("//a[@href='https://www.imdb.com/search/']");
 
