@@ -1,0 +1,87 @@
+{
+  "uid" : "4666c3ad578638f8",
+  "name" : "TC5",
+  "fullName" : "morePageListTest.MorePageListTest.morePageListTest",
+  "historyId" : "96af7eebf0b0a77dd0d4c69569c55483",
+  "time" : {
+    "start" : 1628145553868,
+    "stop" : 1628145587542,
+    "duration" : 33674
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628145553870,
+      "stop" : 1628145555847,
+      "duration" : 1977
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628145587470,
+      "stop" : 1628145587542,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-623"
+  }, {
+    "name" : "thread",
+    "value" : "2866@fv-az82-623.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "morePageListTest.MorePageListTest"
+  }, {
+    "name" : "testClass",
+    "value" : "morePageListTest.MorePageListTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "morePageListTest"
+  }, {
+    "name" : "suite",
+    "value" : "morePageListTest.MorePageListTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4666c3ad578638f8.json",
+  "parameterValues" : [ ]
+}

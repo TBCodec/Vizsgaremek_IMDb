@@ -1,0 +1,51 @@
+[ {
+  "uid" : "e267217a5e4760bc",
+  "name" : "TC4",
+  "time" : {
+    "start" : 1628145604188,
+    "stop" : 1628145609178,
+    "duration" : 4990
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a7d280f865553928",
+  "name" : "TC1",
+  "time" : {
+    "start" : 1628145597453,
+    "stop" : 1628145604184,
+    "duration" : 6731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4666c3ad578638f8",
+  "name" : "TC5",
+  "time" : {
+    "start" : 1628145553868,
+    "stop" : 1628145587542,
+    "duration" : 33674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "419416cd403690d7",
+  "name" : "TC3",
+  "time" : {
+    "start" : 1628145540847,
+    "stop" : 1628145553779,
+    "duration" : 12932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a704c62199d68667",
+  "name" : "TC2",
+  "time" : {
+    "start" : 1628145587548,
+    "stop" : 1628145597450,
+    "duration" : 9902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
