@@ -13,7 +13,7 @@ public class Javascript {
         this.driver = driver;
     }
 
-    //megkeresi az oldalon az adott By-t
+    //Megkeresi az oldalon az adott By-t
     public void goToByWithJavascript(By by) {
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
         WebElement fanFavorites = driver.findElement(by);

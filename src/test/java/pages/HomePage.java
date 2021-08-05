@@ -20,7 +20,7 @@ public class HomePage {
     final By PRIVACY_POLICY = By.xpath("//a[contains(@href,'/privacy')]");
     final By TOP_BOX_BUTTON = By.xpath("//*[@id=\"__next\"]//a[@href=\"/chart/boxoffice/?ref_=hm_cht_sm\"]");
     final By MENU_BUTTON = By.id("imdbHeader-navDrawerOpen--desktop");
-    final By MENU_LIST = By.xpath("//*[@id=\"imdbHeader\"]//a");
+    final By MENU_LIST = By.xpath("//*[@id=\"imdbHeader\"]//a[@role=\"menuitem\"]");
     final By SEARCH_CATEGORY_BUTTON = By.xpath("//*[@id=\"nav-search-form\"]/div[contains(@class,\"SearchCat\")]");
     final By ADVANCED_SEARCH_BUTTON = By.xpath("//a[@href='https://www.imdb.com/search/']");
 
@@ -44,7 +44,12 @@ public class HomePage {
         webdriverWait(MENU_LIST);
         List<WebElement> menuTitles = driver.findElements(MENU_LIST);
         for (WebElement element : menuTitles){
-            if (element.getText().contains(text)) element.click();
+            System.out.println(element.getText());
+            if (element.getText().contains(text)) {
+                element.click();
+                break;
+            }
+
         }
     }
 
@@ -52,7 +57,7 @@ public class HomePage {
     //-----------------------------------------------------
     public TopBoxOfficePage clickTopBox(){
         clickMenuButton();
-        clickSelectedByText("Top Box Office");
+        clickSelectedByText("Top Box");
         return new TopBoxOfficePage(driver);
     }
 
