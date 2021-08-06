@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://TBCodec.github.io/Vizsgaremek_IMDb",
+  "buildOrder" : 13,
+  "buildName" : "GitHub Actions Run #1106537011",
+  "buildUrl" : "https://github.com/TBCodec/Vizsgaremek_IMDb/actions/runs/1106537011",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/13/"
+} ]

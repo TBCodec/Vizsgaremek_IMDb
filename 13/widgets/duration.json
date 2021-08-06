@@ -1,0 +1,61 @@
+[ {
+  "uid" : "11154688c01b32a4",
+  "name" : "TC3",
+  "time" : {
+    "start" : 1628287166228,
+    "stop" : 1628287169899,
+    "duration" : 3671
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "86078105e4345894",
+  "name" : "TC5",
+  "time" : {
+    "start" : 1628287169903,
+    "stop" : 1628287203674,
+    "duration" : 33771
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "3cc85ebc2ad03608",
+  "name" : "TC2",
+  "time" : {
+    "start" : 1628287141481,
+    "stop" : 1628287152998,
+    "duration" : 11517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b79cd7a234b4d41",
+  "name" : "TC4",
+  "time" : {
+    "start" : 1628287160315,
+    "stop" : 1628287166224,
+    "duration" : 5909
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6f0d676a958e726a",
+  "name" : "testSuccessfulRegistration()",
+  "time" : {
+    "start" : 1628287117212,
+    "stop" : 1628287141371,
+    "duration" : 24159
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "48f17a5c1bee867b",
+  "name" : "TC1",
+  "time" : {
+    "start" : 1628287153002,
+    "stop" : 1628287160308,
+    "duration" : 7306
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

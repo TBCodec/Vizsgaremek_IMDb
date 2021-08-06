@@ -1,0 +1,128 @@
+{
+  "uid" : "3cc85ebc2ad03608",
+  "name" : "TC2",
+  "fullName" : "Tests.LoginTest.testSuccessfulLogout",
+  "historyId" : "fd0b80d5837c193282fd0e0deb47e321",
+  "time" : {
+    "start" : 1628287141481,
+    "stop" : 1628287152998,
+    "duration" : 11517
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628287141483,
+      "stop" : 1628287143676,
+      "duration" : 2193
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628287152927,
+      "stop" : 1628287152998,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-623"
+  }, {
+    "name" : "thread",
+    "value" : "2901@fv-az82-623.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulLogout"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.LoginTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7af0b751e6538ba5",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/12//#testresult/7af0b751e6538ba5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628286526932,
+          "stop" : 1628286537312,
+          "duration" : 10380
+        }
+      }, {
+        "uid" : "dbf62333e690d829",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/11//#testresult/dbf62333e690d829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628274195998,
+          "stop" : 1628274206719,
+          "duration" : 10721
+        }
+      }, {
+        "uid" : "ed214e1717bcdcf",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/10//#testresult/ed214e1717bcdcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628249650557,
+          "stop" : 1628249664927,
+          "duration" : 14370
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3cc85ebc2ad03608.json",
+  "parameterValues" : [ ]
+}

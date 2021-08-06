@@ -1,0 +1,107 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Tests",
+    "children" : [ {
+      "name" : "RegistrationTests",
+      "children" : [ {
+        "name" : "testSuccessfulRegistration",
+        "uid" : "6f0d676a958e726a",
+        "parentUid" : "5c0182ca78a7d5006430a83ab525648f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628287117212,
+          "stop" : 1628287141371,
+          "duration" : 24159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c0182ca78a7d5006430a83ab525648f"
+    }, {
+      "name" : "LoginTest",
+      "children" : [ {
+        "name" : "testSuccessfulLogout",
+        "uid" : "3cc85ebc2ad03608",
+        "parentUid" : "d21a215bbef3a4b8747bcc43b2fbe22c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628287141481,
+          "stop" : 1628287152998,
+          "duration" : 11517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSuccessfulLogin",
+        "uid" : "48f17a5c1bee867b",
+        "parentUid" : "d21a215bbef3a4b8747bcc43b2fbe22c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628287153002,
+          "stop" : 1628287160308,
+          "duration" : 7306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d21a215bbef3a4b8747bcc43b2fbe22c"
+    }, {
+      "name" : "ListDataTest",
+      "children" : [ {
+        "name" : "listDataTest",
+        "uid" : "4b79cd7a234b4d41",
+        "parentUid" : "9490cbc28703e012275c1f27c861f7f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628287160315,
+          "stop" : 1628287166224,
+          "duration" : 5909
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9490cbc28703e012275c1f27c861f7f8"
+    }, {
+      "name" : "PrivacyPolicyTest",
+      "children" : [ {
+        "name" : "privacyPolicyTest",
+        "uid" : "11154688c01b32a4",
+        "parentUid" : "06aff357cc8f8d652c6857a842368b82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628287166228,
+          "stop" : 1628287169899,
+          "duration" : 3671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06aff357cc8f8d652c6857a842368b82"
+    }, {
+      "name" : "MorePageListTest",
+      "children" : [ {
+        "name" : "morePageListTest",
+        "uid" : "86078105e4345894",
+        "parentUid" : "0dd5fb25975ca4db54b87621231baa6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628287169903,
+          "stop" : 1628287203674,
+          "duration" : 33771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0dd5fb25975ca4db54b87621231baa6a"
+    } ],
+    "uid" : "fc39173c9dc08e281c680147b63fcad9"
+  } ],
+  "name" : "packages"
+}
