@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -26,7 +27,7 @@ public class RegistrationPage {
         if (field.contains("name")) driver.findElement(USER_NAME_FIELD).sendKeys(name);
         else if (field.contains("email")) driver.findElement(USER_EMAIL_FIELD).sendKeys(name);
         else if (field.contains("password")){
-            driver.findElement(USER_PASSWORD_FIELD).sendKeys(name + "\n");
+            driver.findElement(USER_PASSWORD_FIELD).sendKeys(name);
             //driver.findElement(USER_RE_ENTER_PASSWORD_FIELD).sendKeys(name);
 
         }
@@ -34,6 +35,21 @@ public class RegistrationPage {
 
     public void clickCreateButton(){
         driver.findElement(CREATE_BUTTON).click();
+    }
+
+    public Boolean isThereAlertField(){
+        try {
+            WebDriverWait wait = new WebDriverWait(driver,10);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(ALERT_FIELD));
+            return true;
+        }
+        catch (Exception e){
+            return false;
+        }
+    }
+
+    public String alertText(){
+        return driver.findElement(ALERT_FIELD).getText();
     }
 
 }
