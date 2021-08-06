@@ -13,7 +13,7 @@ public class TopBoxOfficePage {
 
     public WebDriver driver;
 
-    private By FILM_TITLES = By.xpath("//*[@id=\"chart-content\"]//h4");
+    protected By FILM_TITLES = By.xpath("//*[@id=\"chart-content\"]//h4");
 
     public TopBoxOfficePage(WebDriver driver){
         this.driver = driver;

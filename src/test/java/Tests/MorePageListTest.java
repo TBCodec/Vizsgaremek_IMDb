@@ -1,6 +1,6 @@
-package morePageListTest;
+package Tests;
 
-import base.BaseTests;
+import Tests.BaseTests;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -19,6 +19,7 @@ public class MorePageListTest extends BaseTests {
         advancedSearchPage.typeToTitleField(searchedThing);
         advancedSearchPage.clickSearchButton();
         List<List<String>> listFromAllPage = advancedSearchPage.listFromAllPage();
+        //Lista kiírása
         for (int pageNumber = 1; pageNumber < listFromAllPage.size(); pageNumber++){
             List<String> pages = listFromAllPage.get(pageNumber-1);
             utils.printListText("List of " + searchedThing + ":\n" +

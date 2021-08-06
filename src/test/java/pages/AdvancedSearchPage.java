@@ -61,6 +61,7 @@ public class AdvancedSearchPage {
         return listOfPageFilmsTitle;
     }
 
+    //Lista minden oldalról, amíg van "next" gomb
     public List<List<String>> listFromAllPage(){
         List<List<String>> listFromAllPage = new ArrayList<>();
         while (isThereNextButton())
@@ -72,6 +73,7 @@ public class AdvancedSearchPage {
         return listFromAllPage;
     }
 
+    //Keresi a "next" gombot az aktuális oldalon
     public Boolean isThereNextButton(){
         try {
             return driver.findElement(NEXT_BUTTON).isDisplayed();

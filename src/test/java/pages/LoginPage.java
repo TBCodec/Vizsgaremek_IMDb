@@ -8,13 +8,10 @@ import utils.AddCookie;
 import java.util.concurrent.TimeUnit;
 
 public class LoginPage {
-    private int i = 0;
     private final WebDriver driver;
     final By USER_NAME_FIELD = By.xpath("//*[@id=\"ap_email\"]");
     final By PASSWORD_FIELD = By.xpath("//*[@id=\"ap_password\"]");
     final By SIGNIN_BUTTON = By.id("signInSubmit");
-    final By REMEMBER_ME_BUTTON = By.xpath("//label[@class='ng-binding']");
-    final By ALERT_WARNING = By.xpath("//*[@id=\"app\"]//p[@class]//a");
 
     private WebDriverWait wait;
 

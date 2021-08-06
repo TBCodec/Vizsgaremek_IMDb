@@ -1,6 +1,6 @@
-package privacyPolicyTest;
+package Tests;
 
-import base.BaseTests;
+import Tests.BaseTests;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

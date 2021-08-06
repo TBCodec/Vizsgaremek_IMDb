@@ -7,20 +7,33 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class RegistrationPage {
 
-    private WebDriver driver;
-    private By iAmNotRobot = By.xpath("//div[@class='recaptcha-checkbox-border']");
+    protected WebDriver driver;
+
+    final By USER_NAME_FIELD = By.id("ap_customer_name");
+    final By USER_EMAIL_FIELD = By.id("ap_email");
+    final By USER_PASSWORD_FIELD = By.id("ap_password");
+    final By USER_RE_ENTER_PASSWORD_FIELD = By.id("ap_password_check");
+    final By CREATE_BUTTON = By.id("a-autoid-0");
+    final By ALERT_FIELD = By.id("auth-warning-message-box");
+
 
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
 
     }
 
+    public void typeToField(String field, String name){
+        if (field.contains("name")) driver.findElement(USER_NAME_FIELD).sendKeys(name);
+        else if (field.contains("email")) driver.findElement(USER_EMAIL_FIELD).sendKeys(name);
+        else if (field.contains("password")){
+            driver.findElement(USER_PASSWORD_FIELD).sendKeys(name + "\n");
+            //driver.findElement(USER_RE_ENTER_PASSWORD_FIELD).sendKeys(name);
 
-    public void setIAmNotRobot(){
-        //driver.findElement(iAmNotRobot).click();
-        new WebDriverWait(driver, 10).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.xpath("//iframe[starts-with(@name, 'a-') and starts-with(@src, 'https://www.google.com/recaptcha')]")));
+        }
+    }
 
-        new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.recaptcha-checkbox-checkmark"))).click();
+    public void clickCreateButton(){
+        driver.findElement(CREATE_BUTTON).click();
     }
 
 }
