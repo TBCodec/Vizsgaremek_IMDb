@@ -1,0 +1,61 @@
+[ {
+  "uid" : "4196a2a767a19bc9",
+  "name" : "TC5",
+  "time" : {
+    "start" : 1628286555141,
+    "stop" : 1628286587531,
+    "duration" : 32390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7af0b751e6538ba5",
+  "name" : "TC2",
+  "time" : {
+    "start" : 1628286526932,
+    "stop" : 1628286537312,
+    "duration" : 10380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76fa051817581fc",
+  "name" : "testSuccessfulRegistration()",
+  "time" : {
+    "start" : 1628286503635,
+    "stop" : 1628286526828,
+    "duration" : 23193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee5501faea56e746",
+  "name" : "TC4",
+  "time" : {
+    "start" : 1628286546414,
+    "stop" : 1628286551802,
+    "duration" : 5388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "938dea25adbbc88d",
+  "name" : "TC3",
+  "time" : {
+    "start" : 1628286551811,
+    "stop" : 1628286555128,
+    "duration" : 3317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebd1bd0bf605fe3b",
+  "name" : "TC1",
+  "time" : {
+    "start" : 1628286537318,
+    "stop" : 1628286546408,
+    "duration" : 9090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
