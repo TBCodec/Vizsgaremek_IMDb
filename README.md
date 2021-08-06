@@ -1,8 +1,8 @@
-#<p style="text-align: center;">Vizsgaremek</p>
+# <p style="text-align: center;">Vizsgaremek</p>
 
 ***
->##<p style="text-align: center;">IMDb weboldal tesztelése</p>
->>###Linkek:
+>## <p style="text-align: center;">IMDb weboldal tesztelése</p>
+>>### Linkek:
 >>>* [Github](https://github.com/TBCodec/Vizsgaremek_IMDb)
 >>>* [Tesztmenedzser](https://docs.google.com/spreadsheets/d/1DvklzVpEp8adIK4msi6FuN1quvwjfxygE1bSO5PpNVI/edit?usp=sharing)
 >>>* [Követelmény nyomonkövetés](https://docs.google.com/spreadsheets/d/12Tn-UG9_3HJb-EvQFme00NhMU1L2mAGkQtgXRJeNHUQ/edit?usp=sharing)
