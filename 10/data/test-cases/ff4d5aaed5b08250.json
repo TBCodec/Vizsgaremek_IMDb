@@ -1,0 +1,87 @@
+{
+  "uid" : "ff4d5aaed5b08250",
+  "name" : "TC3",
+  "fullName" : "Tests.PrivacyPolicyTest.privacyPolicyTest",
+  "historyId" : "cf564704de81be2eafecace63cd89e74",
+  "time" : {
+    "start" : 1628249672313,
+    "stop" : 1628249676039,
+    "duration" : 3726
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628249672314,
+      "stop" : 1628249674662,
+      "duration" : 2348
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628249675968,
+      "stop" : 1628249676039,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-623"
+  }, {
+    "name" : "thread",
+    "value" : "2874@fv-az82-623.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.PrivacyPolicyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.PrivacyPolicyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "privacyPolicyTest"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.PrivacyPolicyTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff4d5aaed5b08250.json",
+  "parameterValues" : [ ]
+}

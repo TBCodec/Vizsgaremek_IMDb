@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Aug 06 11:34:01 GMT 2021","Fri Aug 06 11:34:10 GMT 2021","9087","","Tests.RegistrationTests","","Tests.RegistrationTests","testSuccessfulRegistration","testSuccessfulRegistration()",""
+"broken","Fri Aug 06 11:34:01 GMT 2021","Fri Aug 06 11:34:10 GMT 2021","9194","","Tests.ListDataTest","","Tests.ListDataTest","listDataTest","TC4",""
+"passed","Fri Aug 06 11:34:36 GMT 2021","Fri Aug 06 11:35:04 GMT 2021","28647","","Tests.MorePageListTest","","Tests.MorePageListTest","morePageListTest","TC5",""
+"passed","Fri Aug 06 11:34:32 GMT 2021","Fri Aug 06 11:34:36 GMT 2021","3726","","Tests.PrivacyPolicyTest","","Tests.PrivacyPolicyTest","privacyPolicyTest","TC3",""
+"passed","Fri Aug 06 11:34:24 GMT 2021","Fri Aug 06 11:34:32 GMT 2021","7366","","Tests.LoginTest","","Tests.LoginTest","testSuccessfulLogin","TC1",""
+"passed","Fri Aug 06 11:34:10 GMT 2021","Fri Aug 06 11:34:24 GMT 2021","14370","","Tests.LoginTest","","Tests.LoginTest","testSuccessfulLogout","TC2",""

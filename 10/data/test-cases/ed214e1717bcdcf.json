@@ -1,0 +1,87 @@
+{
+  "uid" : "ed214e1717bcdcf",
+  "name" : "TC2",
+  "fullName" : "Tests.LoginTest.testSuccessfulLogout",
+  "historyId" : "fd0b80d5837c193282fd0e0deb47e321",
+  "time" : {
+    "start" : 1628249650557,
+    "stop" : 1628249664927,
+    "duration" : 14370
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628249650558,
+      "stop" : 1628249656014,
+      "duration" : 5456
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628249664851,
+      "stop" : 1628249664927,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-623"
+  }, {
+    "name" : "thread",
+    "value" : "2874@fv-az82-623.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulLogout"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed214e1717bcdcf.json",
+  "parameterValues" : [ ]
+}
