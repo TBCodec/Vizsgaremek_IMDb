@@ -1,6 +1,8 @@
 package Tests;
 
 import Tests.BaseTests;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,6 +14,7 @@ public class ListDataTest extends BaseTests {
 
     @Test
     @DisplayName("TC4")
+    @Severity(SeverityLevel.MINOR)
     public void listDataTest(){
         TopBoxOfficePage topBoxOfficePage = homePage.clickTopBox();
         List<String> filmTitles = topBoxOfficePage.listOfPage();

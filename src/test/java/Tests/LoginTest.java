@@ -1,6 +1,8 @@
 package Tests;
 
 import Tests.BaseTests;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,6 +14,7 @@ public class LoginTest extends BaseTests {
 
     @DisplayName("TC1")
     @Test
+    @Severity(SeverityLevel.CRITICAL)
     public void testSuccessfulLogin(){
         SignInPage signInPage = homePage.clickLogInButton();
         LoginPage loginPage = signInPage.clickSignInWithImdb();
@@ -24,6 +27,7 @@ public class LoginTest extends BaseTests {
 
     @DisplayName("TC2")
     @Test
+    @Severity(SeverityLevel.NORMAL)
     public void testSuccessfulLogout(){
         testSuccessfulLogin();
         homePage.clickLogOutButton();

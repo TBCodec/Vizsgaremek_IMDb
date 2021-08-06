@@ -1,6 +1,8 @@
 package Tests;
 
 import Tests.BaseTests;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -10,6 +12,7 @@ public class PrivacyPolicyTest extends BaseTests {
 
     @Test
     @DisplayName("TC3")
+    @Severity(SeverityLevel.CRITICAL)
     public void privacyPolicyTest(){
         PrivacyPolicyPage privacyPolicyPage = homePage.clickPrivacy();
         String actualtext = privacyPolicyPage.linesOnPrivacy();

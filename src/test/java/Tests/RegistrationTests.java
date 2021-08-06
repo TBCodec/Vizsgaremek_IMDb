@@ -1,6 +1,8 @@
 package Tests;
 
 import Tests.BaseTests;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
@@ -10,6 +12,7 @@ import pages.SignInPage;
 public class RegistrationTests extends BaseTests {
 
     @Test
+    @Severity(SeverityLevel.BLOCKER)
     public void testSuccessfulRegistration(){
         String name = "Tóth Balázs";
         String email = "teszt2@teszt.hu";
