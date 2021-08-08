@@ -12,24 +12,25 @@ import pages.SignInPage;
 
 public class LoginTest extends BaseTests {
 
+    private String username = "litro@freemail.hu";
+    private String password = "Bw330405";
+
     @DisplayName("TC1")
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testSuccessfulLogin(){
-        SignInPage signInPage = homePage.clickLogInButton();
-        LoginPage loginPage = signInPage.clickSignInWithImdb();
-        loginPage.setUserNameField("litro@freemail.hu");
-        loginPage.setPasswordField("Bw330405");
-        HomePage homePage = loginPage.clickSignInButton();
+
+        String accountName = "Test";
+        loginPage.login(username,password);
         String logInUser = homePage.getUserName();
-        Assertions.assertEquals(logInUser, "Test");
+        Assertions.assertEquals(accountName,logInUser);
     }
 
     @DisplayName("TC2")
     @Test
     @Severity(SeverityLevel.NORMAL)
     public void testSuccessfulLogout(){
-        testSuccessfulLogin();
+        loginPage.login(username,password);
         homePage.clickLogOutButton();
         String logInUser = homePage.getUserFieldText();
         Assertions.assertEquals(logInUser, "Sign In");

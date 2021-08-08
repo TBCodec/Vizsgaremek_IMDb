@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import pages.HomePage;
+import pages.LoginPage;
 import utils.Utils;
 
 import java.util.concurrent.TimeUnit;
@@ -16,6 +17,7 @@ public class BaseTests {
     private WebDriver driver;
     protected HomePage homePage;
     public Utils utils;
+    public LoginPage loginPage;
 
     @BeforeEach
     public void setUp(){
@@ -37,6 +39,7 @@ public class BaseTests {
 
         homePage = new HomePage(driver);
         utils = new Utils(driver);
+        loginPage = new LoginPage(driver);
     }
 
     @AfterEach

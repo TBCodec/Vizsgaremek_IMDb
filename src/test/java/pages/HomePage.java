@@ -13,16 +13,14 @@ public class HomePage {
 
     private final WebDriver driver;
     private WebDriverWait wait;
-    final By PROFILE_BUTTON = By.xpath("//*[@id=\"login-username\"]");
-    final By REGISTRATION_BUTTON = By.xpath("//a[@href='https://www.spotify.com/hu/signup/']");
     final By LOGIN_BUTTON = By.xpath("//*[@id=\"imdbHeader\"]//a[@href=\"/registration/signin?ref=nv_generic_lgin\"]");
     final By USER_NAME_FIELD = By.xpath("//*[@id=\"imdbHeader\"]//div[@class=\"ipc-button__text\"]/span");
     final By PRIVACY_POLICY = By.xpath("//a[contains(@href,'/privacy')]");
-    final By TOP_BOX_BUTTON = By.xpath("//*[@id=\"__next\"]//a[@href=\"/chart/boxoffice/?ref_=hm_cht_sm\"]");
     final By MENU_BUTTON = By.id("imdbHeader-navDrawerOpen--desktop");
     final By MENU_LIST = By.xpath("//*[@id=\"imdbHeader\"]//a");
     final By SEARCH_CATEGORY_BUTTON = By.xpath("//*[@id=\"nav-search-form\"]/div[contains(@class,\"SearchCat\")]");
     final By ADVANCED_SEARCH_BUTTON = By.xpath("//a[@href='https://www.imdb.com/search/']");
+    final By ACCOUNT_SETTINGS_BUTTON = By.xpath("//*[@id=\"navUserMenu-contents\"]//a[contains(@href,\"account\")]");
 
     public HomePage(WebDriver driver){
         this.driver = driver;
@@ -70,6 +68,13 @@ public class HomePage {
 
     //Gomb megnyomása funkciók
     //-------------------------------------------------------
+
+    public AccountSettingPage clickAccountSetting(){
+        webdriverWait(ACCOUNT_SETTINGS_BUTTON);
+        clickElement(ACCOUNT_SETTINGS_BUTTON);
+        return new AccountSettingPage(driver);
+    }
+
     public AdvancedSearchPage clickAdvancedSearch(){
         webdriverWait(SEARCH_CATEGORY_BUTTON);
         clickElement(SEARCH_CATEGORY_BUTTON);
@@ -98,8 +103,7 @@ public class HomePage {
 
     }
     public void clickLogOutButton(){
-        webdriverWait(USER_NAME_FIELD);
-        clickElement(USER_NAME_FIELD);
+        clickUserNameButton();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("navUserMenu-contents")));
         List<WebElement> listOfProfile = driver.findElements(By.xpath("//*[@id=\"navUserMenu-contents\"]//a"));
         for (WebElement element : listOfProfile){
@@ -109,19 +113,11 @@ public class HomePage {
         }
     }
 
-    public LoginPage clickProfile(){
-        clickLogInButton();
-        webdriverWait(PROFILE_BUTTON);
-        clickElement(PROFILE_BUTTON);
-
-        return new LoginPage(driver);
+    public void clickUserNameButton(){
+        webdriverWait(USER_NAME_FIELD);
+        clickElement(USER_NAME_FIELD);
     }
 
-    public RegistrationPage clickRegistration(){
-        webdriverWait(REGISTRATION_BUTTON);
-        clickElement(REGISTRATION_BUTTON);
-        return new RegistrationPage(driver);
-    }
     //----------------------------------------------------------
 
     //Felhasználó neve

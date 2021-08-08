@@ -1,5 +1,6 @@
 package pages;
 
+import Tests.BaseTests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -31,14 +32,22 @@ public class LoginPage {
         driver.findElement(PASSWORD_FIELD).sendKeys(password);
     }
 
-    public HomePage clickSignInButton(){
+    public void clickSignInButton(){
         wait = new WebDriverWait(driver, 10);
         driver.findElement(SIGNIN_BUTTON).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait.until(ExpectedConditions.urlContains("https://m.imdb.com/?ref_=m_login"));
         AddCookie addCookie = new AddCookie(driver);
         addCookie.saveCookiesToFile();
-        return new HomePage(driver);
+        }
+
+    public void login(String userName, String password){
+        HomePage homePage = new HomePage(driver);
+        SignInPage signInPage = homePage.clickLogInButton();
+        signInPage.clickSignInWithImdb();
+        setUserNameField(userName);
+        setPasswordField(password);
+        clickSignInButton();
     }
 
 }
