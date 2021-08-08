@@ -1,0 +1,96 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "TC7",
+    "uid" : "285841b51ef6f932",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628440053659,
+      "stop" : 1628440079185,
+      "duration" : 25526
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testSuccessfulRegistration()",
+    "uid" : "bc2fe2ece92745f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628440053680,
+      "stop" : 1628440083967,
+      "duration" : 30287
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC4",
+    "uid" : "ffeee45a13882623",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628440079303,
+      "stop" : 1628440086466,
+      "duration" : 7163
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC2",
+    "uid" : "29132421f885c5ad",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628440084220,
+      "stop" : 1628440097402,
+      "duration" : 13182
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC1",
+    "uid" : "1006b8eba91bc61a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628440097406,
+      "stop" : 1628440104108,
+      "duration" : 6702
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC3",
+    "uid" : "e14146cf59cede58",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628440104114,
+      "stop" : 1628440107756,
+      "duration" : 3642
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC5",
+    "uid" : "a99bc4582113cec1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628440107761,
+      "stop" : 1628440136271,
+      "duration" : 28510
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

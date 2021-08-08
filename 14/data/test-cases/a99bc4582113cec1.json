@@ -1,0 +1,137 @@
+{
+  "uid" : "a99bc4582113cec1",
+  "name" : "TC5",
+  "fullName" : "Tests.MorePageListTest.morePageListTest",
+  "historyId" : "6fddde9da0ff718375bf4ad77e30a74a",
+  "time" : {
+    "start" : 1628440107761,
+    "stop" : 1628440136271,
+    "duration" : 28510
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628440107762,
+      "stop" : 1628440109997,
+      "duration" : 2235
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628440136198,
+      "stop" : 1628440136270,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-623"
+  }, {
+    "name" : "thread",
+    "value" : "2905@fv-az82-623.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.MorePageListTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.MorePageListTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "morePageListTest"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.MorePageListTest"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "86078105e4345894",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/13//#testresult/86078105e4345894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628287169903,
+          "stop" : 1628287203674,
+          "duration" : 33771
+        }
+      }, {
+        "uid" : "4196a2a767a19bc9",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/12//#testresult/4196a2a767a19bc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628286555141,
+          "stop" : 1628286587531,
+          "duration" : 32390
+        }
+      }, {
+        "uid" : "9bca52b9ebb31f04",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/11//#testresult/9bca52b9ebb31f04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628274223102,
+          "stop" : 1628274260921,
+          "duration" : 37819
+        }
+      }, {
+        "uid" : "bcff6ca3991cba2b",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/10//#testresult/bcff6ca3991cba2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628249676051,
+          "stop" : 1628249704698,
+          "duration" : 28647
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a99bc4582113cec1.json",
+  "parameterValues" : [ ]
+}
