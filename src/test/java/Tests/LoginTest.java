@@ -24,12 +24,14 @@ public class LoginTest extends BaseTests {
         loginPage.login(username,password);
         String logInUser = homePage.getUserName();
         Assertions.assertEquals(accountName,logInUser);
+        homePage.clickLogOutButton();
     }
 
     @DisplayName("TC2")
     @Test
     @Severity(SeverityLevel.NORMAL)
     public void testSuccessfulLogout(){
+
         loginPage.login(username,password);
         homePage.clickLogOutButton();
         String logInUser = homePage.getUserFieldText();

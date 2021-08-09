@@ -17,7 +17,7 @@ public class Javascript {
     public void goToByWithJavascript(By by) {
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
         WebElement fanFavorites = driver.findElement(by);
-        javascriptExecutor.executeScript("arguments[0].scrollIntoView(true)", fanFavorites);
+        javascriptExecutor.executeScript("arguments[0].scrollIntoView()", fanFavorites);
     }
 
 }

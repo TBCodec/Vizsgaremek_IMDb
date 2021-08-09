@@ -15,7 +15,7 @@ public class MorePageListTest extends BaseTests {
     @Test
     @DisplayName("TC5")
     @Severity(SeverityLevel.TRIVIAL)
-    public void morePageListTest(){
+    public void searchByTitleTest(){
         String searchedThing = "godfather";
         AdvancedSearchPage advancedSearchPage = homePage.clickAdvancedSearch();
         advancedSearchPage.clickAdvancedTitleSearch();

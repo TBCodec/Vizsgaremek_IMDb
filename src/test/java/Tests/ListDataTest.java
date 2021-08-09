@@ -10,12 +10,13 @@ import pages.TopBoxOfficePage;
 
 import java.util.List;
 
+//Adatok listázása
 public class ListDataTest extends BaseTests {
 
     @Test
     @DisplayName("TC4")
     @Severity(SeverityLevel.MINOR)
-    public void listDataTest(){
+    public void listDataFromTopBoxTest(){
         TopBoxOfficePage topBoxOfficePage = homePage.clickTopBox();
         List<String> filmTitles = topBoxOfficePage.listOfPage();
         utils.printListText("List of films:", filmTitles);

@@ -1,14 +1,19 @@
 package Tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.*;
 import pages.HomePage;
 import pages.LoginPage;
+import utils.FileUtils;
 import utils.Utils;
+import utils.WindowManager;
 
 import java.util.concurrent.TimeUnit;
 
@@ -18,6 +23,8 @@ public class BaseTests {
     protected HomePage homePage;
     public Utils utils;
     public LoginPage loginPage;
+    public FileUtils fileUtils;
+    public WindowManager windowManager;
 
     @BeforeEach
     public void setUp(){
@@ -40,6 +47,8 @@ public class BaseTests {
         homePage = new HomePage(driver);
         utils = new Utils(driver);
         loginPage = new LoginPage(driver);
+        fileUtils = new FileUtils(driver);
+        windowManager = new WindowManager(driver);
     }
 
     @AfterEach

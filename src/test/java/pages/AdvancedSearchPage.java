@@ -1,9 +1,7 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Javascript;
@@ -39,8 +37,12 @@ public class AdvancedSearchPage {
     }
 
     public void typeToTitleField(String text){
+        Actions actions = new Actions(driver);
+        actions.sendKeys(Keys.HOME).build().perform();
         webdriverWaitByBy(TITLE_FIELD);
+        driver.findElement(TITLE_FIELD).clear();
         driver.findElement(TITLE_FIELD).sendKeys(text);
+
     }
 
 

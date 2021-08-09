@@ -13,7 +13,7 @@ public class NewDataInputTest extends BaseTests{
     private String password = "Bw330405";
 
     @Test
-    @DisplayName("TC7")
+    @DisplayName("TC6")
     @Severity(SeverityLevel.NORMAL)
     public void newDataInputBioTest(){
         String textToBio = "Hello World!";
