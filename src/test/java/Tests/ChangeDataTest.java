@@ -6,27 +6,28 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
-import pages.*;
+import pages.AccountSettingPage;
+import pages.EditProfilePage;
 
-public class NewDataInputTest extends BaseTests{
+public class ChangeDataTest extends BaseTests{
 
     private String username = "litro@freemail.hu";
     private String password = "Bw330405";
 
     @RepeatedTest(3)
-    @DisplayName("TC6")
+    @DisplayName("Test8")
     @Severity(SeverityLevel.NORMAL)
-    public void newDataInputBioTest(){
-        String textToBio = "Hello World!";
+    public void changeDataInProfileBio(){
+        String textToBio = "Test Bio field";
         loginPage.login(username,password);
         homePage.clickUserNameButton();
         AccountSettingPage accountSettingPage = homePage.clickAccountSetting();
         EditProfilePage editProfilePage = accountSettingPage.clickEditProfile();
+        editProfilePage.clearBioField();
         editProfilePage.writeToBioField(textToBio);
         editProfilePage.clickSaveDescription();
         accountSettingPage.clickEditProfile();
-        Assertions.assertTrue(editProfilePage.getTextFromBio().contains(textToBio));
-
+        Assertions.assertEquals(textToBio,editProfilePage.getTextFromBio());
     }
 
-    }
+}

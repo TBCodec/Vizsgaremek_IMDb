@@ -22,6 +22,8 @@ public class EditProfilePage {
         driver.findElement(SAVE_DESCRIPTION_BUTTON).click();
     }
 
+    public void clearBioField(){driver.findElement(BIO_FIELD).clear();}
+
     public String getTextFromBio(){
         String text = driver.findElement(BIO_FIELD).getText();
         return text;

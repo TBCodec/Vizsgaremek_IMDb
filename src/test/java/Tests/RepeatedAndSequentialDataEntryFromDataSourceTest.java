@@ -4,6 +4,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import pages.AdvancedSearchPage;
@@ -16,7 +17,7 @@ import java.util.List;
 public class RepeatedAndSequentialDataEntryFromDataSourceTest extends BaseTests{
 
 
-    @Test
+    @RepeatedTest(3)
     @DisplayName("TC7")
     @Severity(SeverityLevel.NORMAL)
     public void repeatedSearchFilmByTitleFromFile(){

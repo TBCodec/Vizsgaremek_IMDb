@@ -5,6 +5,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 import pages.SignInPage;
@@ -12,7 +13,7 @@ import pages.SignInPage;
 
 public class RegistrationTests extends BaseTests {
 
-    @Test
+    @RepeatedTest(3)
     @DisplayName("TC0")
     @Severity(SeverityLevel.BLOCKER)
     public void testSuccessfulRegistration(){

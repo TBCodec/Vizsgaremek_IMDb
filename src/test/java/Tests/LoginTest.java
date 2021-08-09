@@ -5,6 +5,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import pages.HomePage;
 import pages.LoginPage;
@@ -15,8 +16,8 @@ public class LoginTest extends BaseTests {
     private String username = "litro@freemail.hu";
     private String password = "Bw330405";
 
+    @RepeatedTest(3)
     @DisplayName("TC1")
-    @Test
     @Severity(SeverityLevel.CRITICAL)
     public void testSuccessfulLogin(){
 
@@ -27,8 +28,8 @@ public class LoginTest extends BaseTests {
         homePage.clickLogOutButton();
     }
 
+    @RepeatedTest(3)
     @DisplayName("TC2")
-    @Test
     @Severity(SeverityLevel.NORMAL)
     public void testSuccessfulLogout(){
 
