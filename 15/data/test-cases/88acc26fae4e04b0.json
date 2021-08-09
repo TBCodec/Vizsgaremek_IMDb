@@ -1,0 +1,90 @@
+{
+  "uid" : "88acc26fae4e04b0",
+  "name" : "TC7",
+  "fullName" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest.repeatedSearchFilmByTitleFromFile",
+  "historyId" : "c8cc248e97402debe4947478c45ad0a4",
+  "time" : {
+    "start" : 1628491178757,
+    "stop" : 1628491195816,
+    "duration" : 17059
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628491178760,
+      "stop" : 1628491180911,
+      "duration" : 2151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628491195744,
+      "stop" : 1628491195816,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-623"
+  }, {
+    "name" : "thread",
+    "value" : "2881@fv-az82-623.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "repeatedSearchFilmByTitleFromFile"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88acc26fae4e04b0.json",
+  "parameterValues" : [ ]
+}
