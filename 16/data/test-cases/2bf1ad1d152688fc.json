@@ -1,0 +1,90 @@
+{
+  "uid" : "2bf1ad1d152688fc",
+  "name" : "repetition 1 of 3",
+  "fullName" : "Tests.PrivacyPolicyTest.privacyPolicyTest",
+  "historyId" : "88bf594609c1a69b024f694036f046dc",
+  "time" : {
+    "start" : 1628523578725,
+    "stop" : 1628523582817,
+    "duration" : 4092
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628523578727,
+      "stop" : 1628523580667,
+      "duration" : 1940
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628523582747,
+      "stop" : 1628523582817,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-10"
+  }, {
+    "name" : "thread",
+    "value" : "3088@fv-az39-10.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.PrivacyPolicyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.PrivacyPolicyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "privacyPolicyTest"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.PrivacyPolicyTest"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bf1ad1d152688fc.json",
+  "parameterValues" : [ ]
+}

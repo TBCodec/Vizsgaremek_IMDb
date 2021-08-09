@@ -1,0 +1,90 @@
+{
+  "uid" : "abd5b89d0ec470ce",
+  "name" : "repetition 2 of 3",
+  "fullName" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest.repeatedSearchFilmByTitleFromFile",
+  "historyId" : "8b8360334672823b16031780b7018218",
+  "time" : {
+    "start" : 1628523701170,
+    "stop" : 1628523715975,
+    "duration" : 14805
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628523701171,
+      "stop" : 1628523703196,
+      "duration" : 2025
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628523715899,
+      "stop" : 1628523715975,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-10"
+  }, {
+    "name" : "thread",
+    "value" : "3088@fv-az39-10.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "repeatedSearchFilmByTitleFromFile"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "abd5b89d0ec470ce.json",
+  "parameterValues" : [ ]
+}
