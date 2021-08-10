@@ -1,0 +1,90 @@
+{
+  "uid" : "ee91ab10201528fb",
+  "name" : "repetition 2 of 3",
+  "fullName" : "Tests.DeleteDataTest.deleteDataFromBio",
+  "historyId" : "9625a3a917ef74776cc13747f4325cc",
+  "time" : {
+    "start" : 1628588863037,
+    "stop" : 1628588874812,
+    "duration" : 11775
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628588863037,
+      "stop" : 1628588864765,
+      "duration" : 1728
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628588874736,
+      "stop" : 1628588874811,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az72-552"
+  }, {
+    "name" : "thread",
+    "value" : "2979@fv-az72-552.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.DeleteDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.DeleteDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteDataFromBio"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.DeleteDataTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee91ab10201528fb.json",
+  "parameterValues" : [ ]
+}

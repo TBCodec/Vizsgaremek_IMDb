@@ -1,0 +1,179 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x560480b10a63 <unknown>\n#1 0x560480885458 <unknown>\n#2 0x56048086f375 <unknown>\n#3 0x560480886852 <unknown>\n#4 0x5604808df112 <unknown>\n#5 0x5604808d7fd3 <unknown>\n#6 0x5604808ae514 <unknown>\n#7 0x5604808af505 <unknown>\n#8 0x560480b3ce2e <unknown>\n#9 0x560480b52886 <unknown>\n#10 0x560480b3dd75 <unknown>\n#11 0x560480b53d94 <unknown>\n#12 0x560480b348eb <unknown>\n#13 0x560480b6ecd8 <unknown>\n#14 0x560480b6ee58 <unknown>\n#15 0x560480b88dfd <unknown>\n#16 0x7f09f26b7609 start_thread\n",
+      "children" : [ {
+        "name" : "repetition 1 of 3",
+        "uid" : "1f11bf5e0802ccd8",
+        "parentUid" : "6ef40007f5c6749e67ee9b7d6ecbeac0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588766297,
+          "stop" : 1628588774483,
+          "duration" : 8186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ef40007f5c6749e67ee9b7d6ecbeac0"
+    }, {
+      "name" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56149421ca63 <unknown>\n#1 0x561493f91458 <unknown>\n#2 0x561493f7b375 <unknown>\n#3 0x561493f92852 <unknown>\n#4 0x561493feb112 <unknown>\n#5 0x561493fe3fd3 <unknown>\n#6 0x561493fba514 <unknown>\n#7 0x561493fbb505 <unknown>\n#8 0x561494248e2e <unknown>\n#9 0x56149425e886 <unknown>\n#10 0x561494249d75 <unknown>\n#11 0x56149425fd94 <unknown>\n#12 0x5614942408eb <unknown>\n#13 0x56149427acd8 <unknown>\n#14 0x56149427ae58 <unknown>\n#15 0x561494294dfd <unknown>\n#16 0x7f4eef6ff609 start_thread\n",
+      "children" : [ {
+        "name" : "repetition 1 of 3",
+        "uid" : "57c3ec231edf4163",
+        "parentUid" : "1a86838e7f16588132d3ce4b1fb3523e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588766316,
+          "stop" : 1628588774527,
+          "duration" : 8211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a86838e7f16588132d3ce4b1fb3523e"
+    }, {
+      "name" : "Expected condition failed: waiting for url to contain \"https://m.imdb.com/?ref_=m_login\". Current url: \"https://m.imdb.com/ap/signin\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.pZ8jfb}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f872ec56510ccbf7b6a0822a07593d35",
+      "children" : [ {
+        "name" : "repetition 2 of 3",
+        "uid" : "be11357be2a0f09b",
+        "parentUid" : "27a85e7243896fc29889da56b295b6da",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588774659,
+          "stop" : 1628588794610,
+          "duration" : 19951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27a85e7243896fc29889da56b295b6da"
+    }, {
+      "name" : "Expected condition failed: waiting for url to contain \"https://m.imdb.com/?ref_=m_login\". Current url: \"https://m.imdb.com/ap/signin\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.4kpKHK}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3cadbc559aab213f599f4c5746ac8aa4",
+      "children" : [ {
+        "name" : "repetition 2 of 3",
+        "uid" : "87f9b534200fc337",
+        "parentUid" : "ed08d33fec24cc6a2e25e17cf7325e8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588774687,
+          "stop" : 1628588794587,
+          "duration" : 19900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed08d33fec24cc6a2e25e17cf7325e8f"
+    }, {
+      "name" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5573ef7fba63 <unknown>\n#1 0x5573ef570458 <unknown>\n#2 0x5573ef55a375 <unknown>\n#3 0x5573ef571852 <unknown>\n#4 0x5573ef5ca112 <unknown>\n#5 0x5573ef5c2fd3 <unknown>\n#6 0x5573ef599514 <unknown>\n#7 0x5573ef59a505 <unknown>\n#8 0x5573ef827e2e <unknown>\n#9 0x5573ef83d886 <unknown>\n#10 0x5573ef828d75 <unknown>\n#11 0x5573ef83ed94 <unknown>\n#12 0x5573ef81f8eb <unknown>\n#13 0x5573ef859cd8 <unknown>\n#14 0x5573ef859e58 <unknown>\n#15 0x5573ef873dfd <unknown>\n#16 0x7f57fbad3609 start_thread\n",
+      "children" : [ {
+        "name" : "repetition 3 of 3",
+        "uid" : "e3a3a7aab46da661",
+        "parentUid" : "81ffcb5a14bdb4c536a81dc707e4d7e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588794599,
+          "stop" : 1628588794865,
+          "duration" : 266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81ffcb5a14bdb4c536a81dc707e4d7e4"
+    }, {
+      "name" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5596730ada63 <unknown>\n#1 0x559672e22458 <unknown>\n#2 0x559672e0c375 <unknown>\n#3 0x559672e23852 <unknown>\n#4 0x559672e7c112 <unknown>\n#5 0x559672e74fd3 <unknown>\n#6 0x559672e4b514 <unknown>\n#7 0x559672e4c505 <unknown>\n#8 0x5596730d9e2e <unknown>\n#9 0x5596730ef886 <unknown>\n#10 0x5596730dad75 <unknown>\n#11 0x5596730f0d94 <unknown>\n#12 0x5596730d18eb <unknown>\n#13 0x55967310bcd8 <unknown>\n#14 0x55967310be58 <unknown>\n#15 0x559673125dfd <unknown>\n#16 0x7f7858fcf609 start_thread\n",
+      "children" : [ {
+        "name" : "repetition 3 of 3",
+        "uid" : "7ff5fe6b59a22007",
+        "parentUid" : "3d2951ba068f7f22dc6226b47d294762",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588794620,
+          "stop" : 1628588794891,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d2951ba068f7f22dc6226b47d294762"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href='https://www.imdb.com/search/'] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "repetition 1 of 3",
+        "uid" : "a2a5cd7e83ef4a2d",
+        "parentUid" : "5250645591a14d949d346322342efeed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588794951,
+          "stop" : 1628588811355,
+          "duration" : 16404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5250645591a14d949d346322342efeed"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.2Q1wyK}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ad63bc0e3402ff91f982219df96ea587",
+      "children" : [ {
+        "name" : "repetition 2 of 3",
+        "uid" : "5a9f8eb300e1740b",
+        "parentUid" : "be22d55ef0d21df5868d373ab6c94a3e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588811359,
+          "stop" : 1628588822838,
+          "duration" : 11479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be22d55ef0d21df5868d373ab6c94a3e"
+    }, {
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.IiUGTn}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e9be7c89995c272cbc3aa41e9bdfa139",
+      "children" : [ {
+        "name" : "repetition 3 of 3",
+        "uid" : "55e3a5407d184cdd",
+        "parentUid" : "fe103bf7a4b37b1dfe248954901da16b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588822853,
+          "stop" : 1628588826271,
+          "duration" : 3418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe103bf7a4b37b1dfe248954901da16b"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"main\"] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "repetition 1 of 3",
+        "uid" : "547085bfd243b351",
+        "parentUid" : "6db9c2779b14c2cb3b7066479c91ba80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628588963669,
+          "stop" : 1628588975917,
+          "duration" : 12248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6db9c2779b14c2cb3b7066479c91ba80"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

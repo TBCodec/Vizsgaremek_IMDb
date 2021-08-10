@@ -1,0 +1,90 @@
+{
+  "uid" : "3bfbcb605276941c",
+  "name" : "repetition 3 of 3",
+  "fullName" : "Tests.DeleteDataTest.deleteDataFromBio",
+  "historyId" : "3bbb6a5a7161dcd10aa430be800a06c0",
+  "time" : {
+    "start" : 1628588874817,
+    "stop" : 1628588886523,
+    "duration" : 11706
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628588874818,
+      "stop" : 1628588876670,
+      "duration" : 1852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628588886450,
+      "stop" : 1628588886522,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az72-552"
+  }, {
+    "name" : "thread",
+    "value" : "2979@fv-az72-552.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.DeleteDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.DeleteDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteDataFromBio"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.DeleteDataTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3bfbcb605276941c.json",
+  "parameterValues" : [ ]
+}
