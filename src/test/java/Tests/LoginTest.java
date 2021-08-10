@@ -13,9 +13,6 @@ import pages.SignInPage;
 
 public class LoginTest extends BaseTests {
 
-    private String username = "litro@freemail.hu";
-    private String password = "Bw330405";
-
     @RepeatedTest(3)
     @DisplayName("TC1")
     @Severity(SeverityLevel.CRITICAL)

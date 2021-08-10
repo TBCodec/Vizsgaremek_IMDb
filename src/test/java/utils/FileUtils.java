@@ -2,10 +2,7 @@ package utils;
 
 import org.openqa.selenium.WebDriver;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.List;
 import java.util.Scanner;
 
@@ -24,7 +21,10 @@ public class FileUtils {
             if (myObj.createNewFile()){
                 System.out.println("File created: " + myObj.getName());
             }
-            else System.out.println("File already exists.");
+            PrintWriter writer = new PrintWriter(fileName);
+            writer.print("");
+            writer.close();
+            //else System.out.println("File already exists.");
         }
         catch (IOException e){
             System.out.println("An error occured.");
@@ -35,8 +35,8 @@ public class FileUtils {
 
     public void writeToFile(String filename, String line){
         try {
-            FileWriter myWriter = new FileWriter(filename);
-            myWriter.write(line);
+            FileWriter myWriter = new FileWriter(filename, true);
+            myWriter.append(line + "\n");
             myWriter.close();
             System.out.println("Successfully wrote to file:");
             System.out.println(line);

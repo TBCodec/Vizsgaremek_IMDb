@@ -10,9 +10,6 @@ import pages.*;
 
 public class NewDataInputTest extends BaseTests{
 
-    private String username = "litro@freemail.hu";
-    private String password = "Bw330405";
-
     @RepeatedTest(3)
     @DisplayName("TC6")
     @Severity(SeverityLevel.NORMAL)

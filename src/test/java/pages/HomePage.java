@@ -14,7 +14,7 @@ public class HomePage {
     private final WebDriver driver;
     private WebDriverWait wait;
     final By LOGIN_BUTTON = By.xpath("//*[@id=\"imdbHeader\"]//a[@href=\"/registration/signin?ref=nv_generic_lgin\"]");
-    final By USER_NAME_FIELD = By.xpath("//*[@id=\"imdbHeader\"]//div[@class=\"ipc-button__text\"]/span");
+    final By USER_NAME_FIELD = By.xpath("//*[@id=\"imdbHeader\"]//div[@class=\"ipc-button__text\"]/span[contains(@class,\"account\")]");
     final By PRIVACY_POLICY = By.xpath("//a[contains(@href,'/privacy')]");
     final By MENU_BUTTON = By.id("imdbHeader-navDrawerOpen--desktop");
     final By MENU_LIST = By.xpath("//*[@id=\"imdbHeader\"]//a");

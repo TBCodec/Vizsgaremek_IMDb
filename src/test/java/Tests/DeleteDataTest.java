@@ -9,22 +9,21 @@ import org.junit.jupiter.api.Test;
 import pages.AccountSettingPage;
 import pages.EditProfilePage;
 
-public class ChangeDataTest extends BaseTests{
+public class DeleteDataTest extends BaseTests{
 
     @RepeatedTest(3)
-    @DisplayName("Test8")
+    @DisplayName("TC9")
     @Severity(SeverityLevel.NORMAL)
-    public void changeDataInProfileBio(){
-        String textToBio = "Test Bio field";
+    public void deleteDataFromBio(){
         loginPage.login(username,password);
         homePage.clickUserNameButton();
         AccountSettingPage accountSettingPage = homePage.clickAccountSetting();
         EditProfilePage editProfilePage = accountSettingPage.clickEditProfile();
         editProfilePage.clearBioField();
-        editProfilePage.writeToBioField(textToBio);
         editProfilePage.clickSaveDescription();
         accountSettingPage.clickEditProfile();
-        Assertions.assertEquals(textToBio,editProfilePage.getTextFromBio());
+        Assertions.assertTrue(editProfilePage.getTextFromBio().isEmpty());
     }
+
 
 }
