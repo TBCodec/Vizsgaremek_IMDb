@@ -1,0 +1,120 @@
+{
+  "uid" : "c78096171e25ebca",
+  "name" : "repetition 2 of 3",
+  "fullName" : "Tests.ChangeDataTest.changeDataInProfileBio",
+  "historyId" : "6b17c219278b184cf45a5a1c5e50b046",
+  "time" : {
+    "start" : 1628606683589,
+    "stop" : 1628606694696,
+    "duration" : 11107
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628606683592,
+      "stop" : 1628606685236,
+      "duration" : 1644
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628606694574,
+      "stop" : 1628606694696,
+      "duration" : 122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-671"
+  }, {
+    "name" : "thread",
+    "value" : "3089@fv-az39-671.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.ChangeDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.ChangeDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "changeDataInProfileBio"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.ChangeDataTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "87f9b534200fc337",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/17//#testresult/87f9b534200fc337",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for url to contain \"https://m.imdb.com/?ref_=m_login\". Current url: \"https://m.imdb.com/ap/signin\" (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.4kpKHK}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3cadbc559aab213f599f4c5746ac8aa4",
+        "time" : {
+          "start" : 1628588774687,
+          "stop" : 1628588794587,
+          "duration" : 19900
+        }
+      }, {
+        "uid" : "41bd55f0002b7323",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/16//#testresult/41bd55f0002b7323",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523398691,
+          "stop" : 1628523410490,
+          "duration" : 11799
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c78096171e25ebca.json",
+  "parameterValues" : [ ]
+}

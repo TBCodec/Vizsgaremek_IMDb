@@ -1,0 +1,111 @@
+{
+  "uid" : "97ea4860b078c6cd",
+  "name" : "repetition 1 of 3",
+  "fullName" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest.repeatedSearchFilmByTitleFromFileTest",
+  "historyId" : "8e82ca30b74411958abed1af64ee470d",
+  "time" : {
+    "start" : 1628606967602,
+    "stop" : 1628606979696,
+    "duration" : 12094
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628606967602,
+      "stop" : 1628606969169,
+      "duration" : 1567
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628606979624,
+      "stop" : 1628606979696,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-671"
+  }, {
+    "name" : "thread",
+    "value" : "3089@fv-az39-671.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "repeatedSearchFilmByTitleFromFileTest"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.RepeatedAndSequentialDataEntryFromDataSourceTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a2a5cd7e83ef4a2d",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/17//#testresult/a2a5cd7e83ef4a2d",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href='https://www.imdb.com/search/'] (tried for 10 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1628588794951,
+          "stop" : 1628588811355,
+          "duration" : 16404
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "97ea4860b078c6cd.json",
+  "parameterValues" : [ ]
+}

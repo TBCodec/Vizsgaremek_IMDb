@@ -1,0 +1,120 @@
+{
+  "uid" : "1522fe47c0fca3a1",
+  "name" : "repetition 3 of 3",
+  "fullName" : "Tests.ChangeDataTest.changeDataInProfileBio",
+  "historyId" : "e5f566ceb1d8496a09c7b9c54178a421",
+  "time" : {
+    "start" : 1628606694704,
+    "stop" : 1628606705526,
+    "duration" : 10822
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628606694706,
+      "stop" : 1628606696366,
+      "duration" : 1660
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628606705454,
+      "stop" : 1628606705526,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-671"
+  }, {
+    "name" : "thread",
+    "value" : "3089@fv-az39-671.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.ChangeDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.ChangeDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "changeDataInProfileBio"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.ChangeDataTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e3a3a7aab46da661",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/17//#testresult/e3a3a7aab46da661",
+        "status" : "broken",
+        "statusDetails" : "session not created\nfrom disconnected: unable to connect to renderer\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-552', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5573ef7fba63 <unknown>\n#1 0x5573ef570458 <unknown>\n#2 0x5573ef55a375 <unknown>\n#3 0x5573ef571852 <unknown>\n#4 0x5573ef5ca112 <unknown>\n#5 0x5573ef5c2fd3 <unknown>\n#6 0x5573ef599514 <unknown>\n#7 0x5573ef59a505 <unknown>\n#8 0x5573ef827e2e <unknown>\n#9 0x5573ef83d886 <unknown>\n#10 0x5573ef828d75 <unknown>\n#11 0x5573ef83ed94 <unknown>\n#12 0x5573ef81f8eb <unknown>\n#13 0x5573ef859cd8 <unknown>\n#14 0x5573ef859e58 <unknown>\n#15 0x5573ef873dfd <unknown>\n#16 0x7f57fbad3609 start_thread\n",
+        "time" : {
+          "start" : 1628588794599,
+          "stop" : 1628588794865,
+          "duration" : 266
+        }
+      }, {
+        "uid" : "118f928c360d6dcf",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/16//#testresult/118f928c360d6dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523410494,
+          "stop" : 1628523422786,
+          "duration" : 12292
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1522fe47c0fca3a1.json",
+  "parameterValues" : [ ]
+}
