@@ -23,7 +23,7 @@ public class RepeatedAndSequentialDataEntryFromDataSourceTest extends BaseTests{
         advancedSearchPage.clickAdvancedTitleSearch();
         List<String> listTitleFromFile = new ArrayList<>();
         fileUtils.readFromFileAndAddToList(listTitleFromFile);
-        List<List<String>> foundedFilmsByTitle = new ArrayList<>();
+        foundedFilmsByTitle = new ArrayList<>();
         for (String title : listTitleFromFile){
             advancedSearchPage.typeToTitleField(title);
             advancedSearchPage.clickSearchButton();

@@ -36,7 +36,7 @@ public class BaseTests {
 
         options.addArguments("--headless");
         options.addArguments("--window-size=1920, 1080");
-        options.addArguments("--remote-debugging-port=9222");
+        //options.addArguments("--remote-debugging-port=9222");
         options.addArguments("--user-agent='Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166'");
         //options.addArguments("--user-agent='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36");
         options.addArguments("start-maximized");

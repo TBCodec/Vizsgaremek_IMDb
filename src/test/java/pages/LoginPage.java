@@ -27,6 +27,7 @@ public class LoginPage {
         driver.findElement(USER_NAME_FIELD).click();
         driver.findElement(USER_NAME_FIELD).sendKeys(userName);
     }
+
     public void setPasswordField(String password){
         driver.findElement(PASSWORD_FIELD).click();
         driver.findElement(PASSWORD_FIELD).sendKeys(password);
