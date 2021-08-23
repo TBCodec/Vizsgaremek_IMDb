@@ -21,7 +21,6 @@ public class HomePage {
     final By SEARCH_CATEGORY_BUTTON = By.xpath("//*[@id=\"nav-search-form\"]/div[contains(@class,\"SearchCat\")]");
     final By ADVANCED_SEARCH_BUTTON = By.xpath("//a[@href='https://www.imdb.com/search/']");
     final By ACCOUNT_SETTINGS_BUTTON = By.xpath("//*[@id=\"navUserMenu-contents\"]//a[contains(@href,\"account\")]");
-    final By SEARCH_FIELD = By.id("suggestion-search");
 
     public HomePage(WebDriver driver){
         this.driver = driver;
@@ -132,8 +131,5 @@ public class HomePage {
         webdriverWait(LOGIN_BUTTON);
         return driver.findElement(LOGIN_BUTTON).getText();
     }
-
-    //Kereső mezőbe írás
-    //public
 
 }

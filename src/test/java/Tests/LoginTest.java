@@ -1,28 +1,31 @@
 package Tests;
 
-import Tests.BaseTests;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Test;
-import pages.HomePage;
-import pages.LoginPage;
-import pages.SignInPage;
 
 public class LoginTest extends BaseTests {
 
     @RepeatedTest(3)
     @DisplayName("TC1")
     @Severity(SeverityLevel.CRITICAL)
-    public void testSuccessfulLogin(){
+    public void testSuccessfulLoginWithRegisteredUser(){
 
         String accountName = "Test";
         loginPage.login(username,password);
         String logInUser = homePage.getUserName();
         Assertions.assertEquals(accountName,logInUser);
         homePage.clickLogOutButton();
+    }
+
+    @RepeatedTest(3)
+    @DisplayName("TC11")
+    @Severity(SeverityLevel.CRITICAL)
+    public void testSuccessfulLoginWithNotRegisteredUser(){
+        loginPage.login("test","test");
+        Assertions.assertTrue(loginPage.isThereWarningMessage());
     }
 
     @RepeatedTest(3)

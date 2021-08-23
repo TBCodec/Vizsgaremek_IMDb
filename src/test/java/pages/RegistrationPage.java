@@ -13,7 +13,6 @@ public class RegistrationPage {
     final By USER_NAME_FIELD = By.id("ap_customer_name");
     final By USER_EMAIL_FIELD = By.id("ap_email");
     final By USER_PASSWORD_FIELD = By.id("ap_password");
-    final By USER_RE_ENTER_PASSWORD_FIELD = By.id("ap_password_check");
     final By CREATE_BUTTON = By.id("a-autoid-0");
     final By ALERT_FIELD = By.id("auth-warning-message-box");
 
@@ -28,7 +27,6 @@ public class RegistrationPage {
         else if (field.contains("email")) driver.findElement(USER_EMAIL_FIELD).sendKeys(name);
         else if (field.contains("password")){
             driver.findElement(USER_PASSWORD_FIELD).sendKeys(name);
-            //driver.findElement(USER_RE_ENTER_PASSWORD_FIELD).sendKeys(name);
 
         }
     }

@@ -13,6 +13,7 @@ public class LoginPage {
     final By USER_NAME_FIELD = By.xpath("//*[@id=\"ap_email\"]");
     final By PASSWORD_FIELD = By.xpath("//*[@id=\"ap_password\"]");
     final By SIGNIN_BUTTON = By.id("signInSubmit");
+    final By AUTH_WARNING_MESSAGE_BOX = By.id("auth-warning-message-box");
 
     private WebDriverWait wait;
 
@@ -37,7 +38,7 @@ public class LoginPage {
         wait = new WebDriverWait(driver, 10);
         driver.findElement(SIGNIN_BUTTON).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wait.until(ExpectedConditions.urlContains("https://m.imdb.com/?ref_=m_login"));
+        //wait.until(ExpectedConditions.urlContains("https://m.imdb.com/?ref_=m_login"));
         AddCookie addCookie = new AddCookie(driver);
         addCookie.saveCookiesToFile();
         }
@@ -49,6 +50,18 @@ public class LoginPage {
         setUserNameField(userName);
         setPasswordField(password);
         clickSignInButton();
+    }
+
+    public boolean isThereWarningMessage(){
+        try {
+            wait = new WebDriverWait(driver, 10);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(AUTH_WARNING_MESSAGE_BOX));
+            return true;
+        }
+        catch (Exception e){
+            return false;
+        }
+
     }
 
 }

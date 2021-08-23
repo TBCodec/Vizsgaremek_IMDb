@@ -1,12 +1,10 @@
 package Tests;
 
-import Tests.BaseTests;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 import pages.SignInPage;
 

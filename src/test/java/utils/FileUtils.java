@@ -21,9 +21,11 @@ public class FileUtils {
             if (myObj.createNewFile()){
                 System.out.println("File created: " + myObj.getName());
             }
-            PrintWriter writer = new PrintWriter(fileName);
-            writer.print("");
-            writer.close();
+            else {
+                PrintWriter writer = new PrintWriter(fileName);
+                writer.print("");
+                writer.close();
+            }
             //else System.out.println("File already exists.");
         }
         catch (IOException e){
@@ -48,9 +50,9 @@ public class FileUtils {
 
     }
 
-    public void readFromFileAndAddToList(List<String> listToFileLines){
+    public void readFromFileAndAddToList(String fileName, List<String> listToFileLines){
         try {
-            File myObj = new File("Files/searchFilm.txt");
+            File myObj = new File(fileName);
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();

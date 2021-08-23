@@ -5,7 +5,6 @@ import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Test;
 import pages.*;
 
 public class NewDataInputTest extends BaseTests{
@@ -13,7 +12,7 @@ public class NewDataInputTest extends BaseTests{
     @RepeatedTest(3)
     @DisplayName("TC6")
     @Severity(SeverityLevel.NORMAL)
-    public void newDataInputBioTest(){
+    public void testNewDataInputBio(){
         String textToBio = "Hello World!";
         loginPage.login(username,password);
         homePage.clickUserNameButton();

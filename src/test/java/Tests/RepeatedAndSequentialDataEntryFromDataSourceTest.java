@@ -5,10 +5,7 @@ import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
 import pages.AdvancedSearchPage;
-import utils.Javascript;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +19,7 @@ public class RepeatedAndSequentialDataEntryFromDataSourceTest extends BaseTests{
         AdvancedSearchPage advancedSearchPage = homePage.clickAdvancedSearch();
         advancedSearchPage.clickAdvancedTitleSearch();
         List<String> listTitleFromFile = new ArrayList<>();
-        fileUtils.readFromFileAndAddToList(listTitleFromFile);
+        fileUtils.readFromFileAndAddToList("Files/searchFilm.txt", listTitleFromFile);
         foundedFilmsByTitle = new ArrayList<>();
         for (String title : listTitleFromFile){
             advancedSearchPage.typeToTitleField(title);
@@ -37,7 +34,7 @@ public class RepeatedAndSequentialDataEntryFromDataSourceTest extends BaseTests{
     @RepeatedTest(3)
     @DisplayName("TC7")
     @Severity(SeverityLevel.NORMAL)
-    public void repeatedSearchFilmByTitleFromFileTest(){
+    public void testRepeatedSearchFilmByTitleFromFileTest(){
         repeatedSearchFilmByTitleFromFile();
         Assertions.assertTrue(foundedFilmsByTitle.size() > 1);
     }
