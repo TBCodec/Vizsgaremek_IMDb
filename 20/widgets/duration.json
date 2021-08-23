@@ -1,0 +1,481 @@
+[ {
+  "uid" : "c8ade4015701ac3c",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725726072,
+    "stop" : 1629725741976,
+    "duration" : 15904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6026ae0d34749075",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725821199,
+    "stop" : 1629725828775,
+    "duration" : 7576
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75f304198ed76e34",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725866806,
+    "stop" : 1629725882295,
+    "duration" : 15489
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "448222c019d0d36a",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725676370,
+    "stop" : 1629725691890,
+    "duration" : 15520
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c158eac14f3412d7",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725989373,
+    "stop" : 1629725995532,
+    "duration" : 6159
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f2c8144ffd0ecd0f",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725595928,
+    "stop" : 1629725612940,
+    "duration" : 17012
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1e1cd18e6dce863e",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629726031256,
+    "stop" : 1629726037039,
+    "duration" : 5783
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "39b75c7b9b7e2d91",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725995535,
+    "stop" : 1629726001595,
+    "duration" : 6060
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "8dd02c84a49d5238",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629726047884,
+    "stop" : 1629726087694,
+    "duration" : 39810
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "a60932277c3ea133",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725982490,
+    "stop" : 1629725989363,
+    "duration" : 6873
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d107c54288a58e64",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725836285,
+    "stop" : 1629725851333,
+    "duration" : 15048
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f02f01116f9735a7",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725968876,
+    "stop" : 1629725975559,
+    "duration" : 6683
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "94bbc4dc23bb9092",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725773879,
+    "stop" : 1629725789217,
+    "duration" : 15338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bce3399ec7cc082c",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725709114,
+    "stop" : 1629725726067,
+    "duration" : 16953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebf63b0de8a8923a",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629726115545,
+    "stop" : 1629726142912,
+    "duration" : 27367
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "ba05f9b220a88643",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725628244,
+    "stop" : 1629725643633,
+    "duration" : 15389
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7d95f7128f1ec428",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629726159050,
+    "stop" : 1629726174316,
+    "duration" : 15266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46a6ac4f33ad2963",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725797493,
+    "stop" : 1629725805129,
+    "duration" : 7636
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3213c1759f66ba60",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725741984,
+    "stop" : 1629725758462,
+    "duration" : 16478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "842fce82a204e0bd",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725975562,
+    "stop" : 1629725982487,
+    "duration" : 6925
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5acf74f47e0cd5eb",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629726037042,
+    "stop" : 1629726042382,
+    "duration" : 5340
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b7cb846af7e3801",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725926567,
+    "stop" : 1629725941523,
+    "duration" : 14956
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "29e91f8bac00999a",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629726008526,
+    "stop" : 1629726016542,
+    "duration" : 8016
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "bf0abfdd6d13d820",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629726142918,
+    "stop" : 1629726159047,
+    "duration" : 16129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a867a8246c1a9787",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725882309,
+    "stop" : 1629725897132,
+    "duration" : 14823
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b83945c4f45f1bd",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725828777,
+    "stop" : 1629725836281,
+    "duration" : 7504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "207d20b35edbaa54",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725912291,
+    "stop" : 1629725926564,
+    "duration" : 14273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "389e5321951e36c1",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725789221,
+    "stop" : 1629725797489,
+    "duration" : 8268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e57b4d5fbb27cb06",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629726001598,
+    "stop" : 1629726008520,
+    "duration" : 6922
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "fde3c071037fa556",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725758465,
+    "stop" : 1629725773877,
+    "duration" : 15412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "224f62034ed3c6ff",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725897135,
+    "stop" : 1629725912288,
+    "duration" : 15153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62c2d1e8488312bc",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725851336,
+    "stop" : 1629725866802,
+    "duration" : 15466
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "9552ab80bfd228d3",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725954880,
+    "stop" : 1629725968873,
+    "duration" : 13993
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5cf010df1e94b36e",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725578956,
+    "stop" : 1629725595914,
+    "duration" : 16958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e7fca0e6d4fe941",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725612944,
+    "stop" : 1629725628237,
+    "duration" : 15293
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "60b8e4c9a31f6412",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725691902,
+    "stop" : 1629725709108,
+    "duration" : 17206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "475fb79ec7b7be0b",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725558658,
+    "stop" : 1629725578950,
+    "duration" : 20292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5989c8e0e688e6d9",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725526459,
+    "stop" : 1629725558488,
+    "duration" : 32029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e335fe579cd20d7",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725659095,
+    "stop" : 1629725676366,
+    "duration" : 17271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bc26350fd0ae387",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629726174319,
+    "stop" : 1629726189646,
+    "duration" : 15327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c811c024014104f7",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725812894,
+    "stop" : 1629725821196,
+    "duration" : 8302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7ca7e0dbdb6f6eb",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629726087696,
+    "stop" : 1629726115543,
+    "duration" : 27847
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "73b0ff1eca1d5eff",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629726016545,
+    "stop" : 1629726023998,
+    "duration" : 7453
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a796e234b28e147c",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629726042385,
+    "stop" : 1629726047878,
+    "duration" : 5493
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "14aac8478ba0d9ae",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629726024000,
+    "stop" : 1629726031248,
+    "duration" : 7248
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1ba0bfe173b45322",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629725805132,
+    "stop" : 1629725812891,
+    "duration" : 7759
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e64e487dea292f5a",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629725643647,
+    "stop" : 1629725659088,
+    "duration" : 15441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1a264492a861712",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629725941525,
+    "stop" : 1629725954878,
+    "duration" : 13353
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

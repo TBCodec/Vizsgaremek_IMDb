@@ -1,0 +1,87 @@
+{
+  "uid" : "389e5321951e36c1",
+  "name" : "repetition 1 of 3",
+  "fullName" : "Tests.SaveDataFromPageTest.testSaveDataToFileRelease",
+  "historyId" : "90074cbf7b5a966aef720ee3cbc97371",
+  "time" : {
+    "start" : 1629725789221,
+    "stop" : 1629725797489,
+    "duration" : 8268
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629725789221,
+      "stop" : 1629725791659,
+      "duration" : 2438
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629725797411,
+      "stop" : 1629725797489,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az72-349"
+  }, {
+    "name" : "thread",
+    "value" : "2968@fv-az72-349.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.SaveDataFromPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.SaveDataFromPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSaveDataToFileRelease"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.SaveDataFromPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "389e5321951e36c1.json",
+  "parameterValues" : [ ]
+}

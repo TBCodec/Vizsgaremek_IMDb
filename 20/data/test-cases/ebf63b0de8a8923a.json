@@ -1,0 +1,110 @@
+{
+  "uid" : "ebf63b0de8a8923a",
+  "name" : "repetition 3 of 3",
+  "fullName" : "Tests.MorePageListTest.testSearchByTitle",
+  "historyId" : "abbf66243b0cc8fe5a721602b52cf36e",
+  "time" : {
+    "start" : 1629726115545,
+    "stop" : 1629726142912,
+    "duration" : 27367
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629726115546,
+      "stop" : 1629726117774,
+      "duration" : 2228
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629726142833,
+      "stop" : 1629726142912,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az72-349"
+  }, {
+    "name" : "thread",
+    "value" : "2968@fv-az72-349.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.MorePageListTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.MorePageListTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSearchByTitle"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.MorePageListTest"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "58944393598e8ad7",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/19//#testresult/58944393598e8ad7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629716131723,
+          "stop" : 1629716157818,
+          "duration" : 26095
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ebf63b0de8a8923a.json",
+  "parameterValues" : [ ]
+}

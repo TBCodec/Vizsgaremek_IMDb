@@ -1,0 +1,90 @@
+{
+  "uid" : "75f304198ed76e34",
+  "name" : "repetition 3 of 3",
+  "fullName" : "Tests.SaveDataFromPageTest.testSaveDataToFileAdvancedSearch",
+  "historyId" : "56a43d5752ad7ebb466865ada26494e3",
+  "time" : {
+    "start" : 1629725866806,
+    "stop" : 1629725882295,
+    "duration" : 15489
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629725866809,
+      "stop" : 1629725869356,
+      "duration" : 2547
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629725882220,
+      "stop" : 1629725882295,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az72-349"
+  }, {
+    "name" : "thread",
+    "value" : "2968@fv-az72-349.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.SaveDataFromPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.SaveDataFromPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSaveDataToFileAdvancedSearch"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.SaveDataFromPageTest"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75f304198ed76e34.json",
+  "parameterValues" : [ ]
+}
