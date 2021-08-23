@@ -7,5 +7,10 @@
 >>>* [Tesztmenedzser](https://docs.google.com/spreadsheets/d/1DvklzVpEp8adIK4msi6FuN1quvwjfxygE1bSO5PpNVI/edit?usp=sharing)
 >>>* [Követelmény nyomonkövetés](https://docs.google.com/spreadsheets/d/12Tn-UG9_3HJb-EvQFme00NhMU1L2mAGkQtgXRJeNHUQ/edit?usp=sharing)
 >>>* [Allure riport](https://tbcodec.github.io/Vizsgaremek_IMDb/)
+>>### Tesztek futtatása:
+>>>* Töltsük le a Github repot a gépünkre
+>>>* Valamilyen integrált fejlesztői környezettel (pl.: IntelliJ IDEA) futtathatjuk a teszteket 
 
-![alt text](pictures/Allure_riport.jpg)
+
+![alt text](pictures/Allure_riport.png)
+

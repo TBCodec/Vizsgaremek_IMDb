@@ -8,6 +8,7 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Tag;
 import pages.AdvancedSearchPage;
 import pages.DVDPage;
+import pages.ReleasePage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,12 +67,12 @@ public class SaveDataFromPageTest extends RepeatedAndSequentialDataEntryFromData
         Assertions.assertTrue(isListInFile());
     }
 
-    @RepeatedTest(3)
+    @RepeatedTest(1)
     @DisplayName("TC14")
     public void testSaveDataToFileRelease(){
         String title = "Release_films";
-        DVDPage dvdPage = homePage.clickDVD();
-        List<String> filmTitles = dvdPage.listOfPage();
+        ReleasePage releasePage = homePage.clickRelease();
+        List<String> filmTitles = releasePage.listOfPage();
         utils.printListText("List of films:", filmTitles);
         fileName = title + ".txt";
         fileUtils.createFile(fileName);

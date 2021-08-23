@@ -13,7 +13,7 @@ public class ReleasePage {
 
     public WebDriver driver;
 
-    private By FILM_TITLES = By.xpath("//*[@id=\"pagecontent\"]//span[@class=\"h4\"]");
+    private By FILM_TITLES = By.xpath("//*[@id=\"main\"]//a");
 
     public ReleasePage(WebDriver driver) {
         this.driver = driver;
