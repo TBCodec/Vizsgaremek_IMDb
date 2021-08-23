@@ -5,7 +5,9 @@ import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Tag;
 import pages.AdvancedSearchPage;
+import pages.DVDPage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +19,7 @@ public class SaveDataFromPageTest extends RepeatedAndSequentialDataEntryFromData
     @RepeatedTest(3)
     @DisplayName("TC10")
     @Severity(SeverityLevel.MINOR)
-    public void testSaveDataToFile(){
+    public void testSaveDataToFileAdvancedSearch(){
         //1. Kattintsunk az "Advanced Search"-re
         AdvancedSearchPage advancedSearchPage = homePage.clickAdvancedSearch();
         //2. Kattintsunk az "Advanced Title Search"-re
@@ -47,6 +49,36 @@ public class SaveDataFromPageTest extends RepeatedAndSequentialDataEntryFromData
             windowManager.goBack();
             //10. Ismételjük a 4. ponttól a lépéseket, amíg van filmcím
         }
+    }
+
+    @RepeatedTest(3)
+    @DisplayName("TC13")
+    public void testSaveDataToFileDVD(){
+        String title = "DVD_films";
+        DVDPage dvdPage = homePage.clickDVD();
+        List<String> filmTitles = dvdPage.listOfPage();
+        utils.printListText("List of films:", filmTitles);
+        fileName = title + ".txt";
+        fileUtils.createFile(fileName);
+        for (String films : filmTitles){
+            fileUtils.writeToFile(fileName, films);
+        }
+        Assertions.assertTrue(isListInFile());
+    }
+
+    @RepeatedTest(3)
+    @DisplayName("TC14")
+    public void testSaveDataToFileRelease(){
+        String title = "Release_films";
+        DVDPage dvdPage = homePage.clickDVD();
+        List<String> filmTitles = dvdPage.listOfPage();
+        utils.printListText("List of films:", filmTitles);
+        fileName = title + ".txt";
+        fileUtils.createFile(fileName);
+        for (String films : filmTitles){
+            fileUtils.writeToFile(fileName, films);
+        }
+        Assertions.assertTrue(isListInFile());
     }
 
     public Boolean isListInFile(){

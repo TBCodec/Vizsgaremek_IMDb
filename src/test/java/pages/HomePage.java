@@ -64,6 +64,12 @@ public class HomePage {
         clickSelectedByText("DVD");
         return new DVDPage(driver);
     }
+
+    public ReleasePage clickRelease(){
+        clickMenuButton();
+        clickSelectedByText("Release");
+        return new ReleasePage(driver);
+    }
     //------------------------------------------------------
 
     //Gomb megnyomása funkciók

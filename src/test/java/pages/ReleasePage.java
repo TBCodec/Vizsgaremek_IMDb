@@ -9,13 +9,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DVDPage {
+public class ReleasePage {
 
     public WebDriver driver;
 
     private By FILM_TITLES = By.xpath("//*[@id=\"pagecontent\"]//span[@class=\"h4\"]");
 
-    public DVDPage(WebDriver driver){
+    public ReleasePage(WebDriver driver) {
         this.driver = driver;
     }
 
