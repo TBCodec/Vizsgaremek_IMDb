@@ -42,7 +42,6 @@ public class HomePage {
         webdriverWait(MENU_LIST);
         List<WebElement> menuTitles = driver.findElements(MENU_LIST);
         for (WebElement element : menuTitles){
-            //System.out.println(element.getText());
             if (element.getText().contains(text)) {
                 element.click();
                 break;

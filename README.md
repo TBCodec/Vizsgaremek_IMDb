@@ -10,7 +10,9 @@
 >>### Tesztek futtatása:
 >>>* Töltsük le a Github repot a gépünkre
 >>>* Valamilyen integrált fejlesztői környezettel (pl.: IntelliJ IDEA) futtathatjuk a teszteket 
-
+>>>* Az src/test/java/Tests mappában találhatók a futtatható java teszt fájlok
+>>>* IntelliJ IDEA környezetben nyomjuk meg a jobb egérgombot a teszt fájlon és válasszuk a run parancsot:
+> ![alt text](pictures/runTests.png)
 
 ![alt text](pictures/Allure_riport.png)
 

@@ -38,7 +38,6 @@ public class LoginPage {
         wait = new WebDriverWait(driver, 10);
         driver.findElement(SIGNIN_BUTTON).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //wait.until(ExpectedConditions.urlContains("https://m.imdb.com/?ref_=m_login"));
         AddCookie addCookie = new AddCookie(driver);
         addCookie.saveCookiesToFile();
         }
