@@ -1,0 +1,156 @@
+{
+  "uid" : "c8265d6d8f2e2946",
+  "name" : "repetition 1 of 3",
+  "fullName" : "Tests.RegistrationTests.testSuccessfulRegistration",
+  "historyId" : "77f38ad2413c4073b8571c2f9946d3fa",
+  "time" : {
+    "start" : 1629741024469,
+    "stop" : 1629741042010,
+    "duration" : 17541
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629741024469,
+      "stop" : 1629741027681,
+      "duration" : 3212
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629741041937,
+      "stop" : 1629741042010,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-737"
+  }, {
+    "name" : "thread",
+    "value" : "2807@fv-az47-737.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.RegistrationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.RegistrationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.RegistrationTests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "5076cf0679fcf321",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/21//#testresult/5076cf0679fcf321",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-980', ip: '10.1.1.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55737e311a63 <unknown>\n#1 0x55737e086458 <unknown>\n#2 0x55737e0a92e3 <unknown>\n#3 0x55737e0a4e9f <unknown>\n#4 0x55737e0deb72 <unknown>\n#5 0x55737e0d8fd3 <unknown>\n#6 0x55737e0af514 <unknown>\n#7 0x55737e0b0505 <unknown>\n#8 0x55737e33de2e <unknown>\n#9 0x55737e353886 <unknown>\n#10 0x55737e33ed75 <unknown>\n#11 0x55737e354d94 <unknown>\n#12 0x55737e3358eb <unknown>\n#13 0x55737e36fcd8 <unknown>\n#14 0x55737e36fe58 <unknown>\n#15 0x55737e389dfd <unknown>\n#16 0x7f374d0e0609 start_thread\n",
+        "time" : {
+          "start" : 1629731819296,
+          "stop" : 1629731819533,
+          "duration" : 237
+        }
+      }, {
+        "uid" : "f2c8144ffd0ecd0f",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/20//#testresult/f2c8144ffd0ecd0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629725595928,
+          "stop" : 1629725612940,
+          "duration" : 17012
+        }
+      }, {
+        "uid" : "7a908116c281f087",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/19//#testresult/7a908116c281f087",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629715735924,
+          "stop" : 1629715750466,
+          "duration" : 14542
+        }
+      }, {
+        "uid" : "2dd84276a7beefeb",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/18//#testresult/2dd84276a7beefeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628606705536,
+          "stop" : 1628606719537,
+          "duration" : 14001
+        }
+      }, {
+        "uid" : "f94c8b8b82ab659b",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/17//#testresult/f94c8b8b82ab659b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628588794880,
+          "stop" : 1628588822804,
+          "duration" : 27924
+        }
+      }, {
+        "uid" : "41c452d96f61475e",
+        "reportUrl" : "https://TBCodec.github.io/Vizsgaremek_IMDb/16//#testresult/41c452d96f61475e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523422792,
+          "stop" : 1628523438212,
+          "duration" : 15420
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c8265d6d8f2e2946.json",
+  "parameterValues" : [ ]
+}
